@@ -1,0 +1,42 @@
+name: Pierre Abi-aad
+description: Swift thoughts
+meta_description: "Swift and iOS thoughts"
+
+aboutPage: false
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-68489157-1'
+disqus: false
+disqus_shortname: 'abiaad'
+
+# Details for the RSS feed generator
+url:            'http://your-blog-url.example.com'
+author:         'Pierre Abi-aad'
+authorTwitter:  'abiaad'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
