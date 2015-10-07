@@ -1,6 +1,6 @@
 name: Pierre Abi-aad
-description: Swift thoughts
-meta_description: "Swift and iOS thoughts"
+description: Baking iOS apps with passion
+meta_description: "Baking iOS apps with passion"
 
 aboutPage: false
 
@@ -9,13 +9,13 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://www.abiaad.io'
 google_analytics: 'UA-68489157-1'
 disqus: false
 disqus_shortname: 'abiaad'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://www.abiaad.io'
 author:         'Pierre Abi-aad'
 authorTwitter:  'abiaad'
 
